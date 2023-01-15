@@ -1,0 +1,48 @@
+//html code 
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" media="screen and (max-width: 1170px)" href="phone.css"h>
+    </head>
+<body>
+    <div id="contain">
+        <div id="logo">
+            <h1>XTREAM</h1>
+        </div>
+        <div id="navbar">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li> <a href="#">ABOUTUS</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+    <header>
+        <div id="middle">
+            <h1>BUSSINESS INTELLECT</h1>
+            <P id="p3">WE CREATE BEST OPPERTUNITIES</P>
+        </div>
+    </header>
+    <footer>
+        <div id="FOT">
+            <h1>OUR SERVICES</h1>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, fugiat a. Esse voluptatibus
+                voluptates, nobis perspiciatis excepturi ipsam quasi in voluptatum explicabo quaerat consequatur labore
+                similique nam minus quam rem a possimus magni culpa vero neque vel illum. Ab, tempore.</P>
+        </div>
+    </footer>
+  <script src= "script.js" theme="blue" defer></script> 
+</body>
+
+</html>
