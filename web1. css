@@ -1,0 +1,115 @@
+
+            padding: 0PX;
+            margin: 0px;
+
+        }
+
+        #contain {
+            display: flex;
+            /*  background-color: BLACK;
+            color: white;*/
+            background-color: #FFFFFF;
+        }
+
+        #logo h1 {
+            padding: 3px 37px;
+            font-family: 'Baloo 2', cursive;
+        }
+
+        #navbar {
+            position: absolute;
+            right: 15px;
+        }
+
+        #navbar,
+        ul {
+            padding: 6px 37px;
+            display: flex;
+            justify-content: flex-end;
+            justify-items: end;
+        }
+
+        #navbar ul li {
+            list-style: none;
+            padding: 5px;
+        }
+
+        #navbar ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            padding: 10px 27px;
+            font-size: 20px;
+
+
+        }
+
+        #navbar ul li a:hover {
+            color: rgb(72, 89, 94);
+            background-color: rgb(134, 240, 105);
+        }
+
+        #middle {
+            background-image: url("logo.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+
+
+        }
+
+        #middle h1 {
+            position: absolute;
+            color: rgba(80, 219, 80, 0.74);
+            bottom: 200px;
+            padding: 0px 184px;
+            font-size: 55px;
+            font-weight: 700px;
+        }
+
+        #middle p {
+            position: absolute;
+            color: rgba(80, 219, 80, 0.74);
+            bottom: 185px;
+            padding: 0px 214px;
+            color: #FFFFFF;
+            font-weight: bold;
+        }
+
+        #FOT {
+            display: inline-block;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            margin: 40px 48px;
+            padding: 12px 226px;
+
+        }
+
+        #FOT h1 {
+            font-family: 'Rubik Mono One', sans-serif;
+            margin: 14px 0px;
+            font-size: 50px;
+            text-align: center;
+        }
+        #FOT p{
+            justify-items: center;
+            font-size: 14px;
+            font-family: 'Ms Madi', cursive;
+        }
+
+@media only screen and (max-width: 414px){
+   /* #logo{
+        visibility:hidden;
+    }
+  #navbar{
+    display:block;
+    padding:0px;
+    margin:0px;
+  }*/
+  #navbar,ul,li,a{
+    text-size:5px;
+  }
+
+}
